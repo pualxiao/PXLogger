@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CACB8E1C014A58005192D6 /* PXLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04CACB8D1C014A58005192D6 /* PXLogger.h */; };
+		04CACB901C014A58005192D6 /* PXLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CACB8F1C014A58005192D6 /* PXLogger.m */; };
+		04CACB9A1C014A7C005192D6 /* PXClassLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CACB971C014A7C005192D6 /* PXClassLogger.m */; };
+		04CACB9B1C014A7C005192D6 /* PXFuncLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CACB991C014A7C005192D6 /* PXFuncLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04CACB881C014A58005192D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04CACB8E1C014A58005192D6 /* PXLogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04CACB8A1C014A58005192D6 /* libPXLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CACB8D1C014A58005192D6 /* PXLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXLogger.h; sourceTree = "<group>"; };
+		04CACB8F1C014A58005192D6 /* PXLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXLogger.m; sourceTree = "<group>"; };
+		04CACB961C014A7C005192D6 /* PXClassLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXClassLogger.h; sourceTree = "<group>"; };
+		04CACB971C014A7C005192D6 /* PXClassLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXClassLogger.m; sourceTree = "<group>"; };
+		04CACB981C014A7C005192D6 /* PXFuncLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXFuncLogger.h; sourceTree = "<group>"; };
+		04CACB991C014A7C005192D6 /* PXFuncLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXFuncLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CACB871C014A58005192D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CACB811C014A57005192D6 = {
+			isa = PBXGroup;
+			children = (
+				04CACB8C1C014A58005192D6 /* PXLogger */,
+				04CACB8B1C014A58005192D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CACB8B1C014A58005192D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CACB8A1C014A58005192D6 /* libPXLogger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CACB8C1C014A58005192D6 /* PXLogger */ = {
+			isa = PBXGroup;
+			children = (
+				04CACB8D1C014A58005192D6 /* PXLogger.h */,
+				04CACB8F1C014A58005192D6 /* PXLogger.m */,
+				04CACB961C014A7C005192D6 /* PXClassLogger.h */,
+				04CACB971C014A7C005192D6 /* PXClassLogger.m */,
+				04CACB981C014A7C005192D6 /* PXFuncLogger.h */,
+				04CACB991C014A7C005192D6 /* PXFuncLogger.m */,
+			);
+			path = PXLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CACB891C014A58005192D6 /* PXLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CACB931C014A58005192D6 /* Build configuration list for PBXNativeTarget "PXLogger" */;
+			buildPhases = (
+				04CACB861C014A58005192D6 /* Sources */,
+				04CACB871C014A58005192D6 /* Frameworks */,
+				04CACB881C014A58005192D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXLogger;
+			productName = PXLogger;
+			productReference = 04CACB8A1C014A58005192D6 /* libPXLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CACB821C014A57005192D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "习波 肖";
+				TargetAttributes = {
+					04CACB891C014A58005192D6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 04CACB851C014A57005192D6 /* Build configuration list for PBXProject "PXLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04CACB811C014A57005192D6;
+			productRefGroup = 04CACB8B1C014A58005192D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CACB891C014A58005192D6 /* PXLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CACB861C014A58005192D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CACB9B1C014A7C005192D6 /* PXFuncLogger.m in Sources */,
+				04CACB9A1C014A7C005192D6 /* PXClassLogger.m in Sources */,
+				04CACB901C014A58005192D6 /* PXLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04CACB911C014A58005192D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CACB921C014A58005192D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CACB941C014A58005192D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04CACB951C014A58005192D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CACB851C014A57005192D6 /* Build configuration list for PBXProject "PXLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CACB911C014A58005192D6 /* Debug */,
+				04CACB921C014A58005192D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CACB931C014A58005192D6 /* Build configuration list for PBXNativeTarget "PXLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CACB941C014A58005192D6 /* Debug */,
+				04CACB951C014A58005192D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CACB821C014A57005192D6 /* Project object */;
+}
